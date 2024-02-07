@@ -1,0 +1,137 @@
+*{
+	padding:0;
+	margin:0;
+	font-family:Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+.navSection{
+	height: 77px;
+	width:100%;
+	position:relative;
+	background-color: white;
+	display: flex;
+    	justify-content: flex-start;
+    	gap: 10%;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+.navLogo{
+	margin-left:1px;
+	margin-top:1px;
+}
+.headerLeft,.linkText,.searchBox,.navSection,.settings,.headerRight{
+	display:flex;
+}
+a{
+	text-decoration:none;
+}
+.searchBox,.settings{
+	align-items:center;
+}	
+.profile,.wishList,.bag{
+	display:flex;
+	flex-direction:column;	
+}
+.navLogo{
+	margin-top:17px;	
+}
+.headerLeft{
+	margin-left: 43px;
+	gap:27px;
+}
+
+.linkText{
+	gap:35px;
+}
+.linkText a{
+	color:#282C3F;
+	font-size:12px;
+	letter-spacing:.3px;
+	font-weight:700;
+	text-transform:uppercase;
+}
+.textStyle{
+	margin-top:25px;
+}
+.newText{
+	color:#FF3F6C;
+	font-size:10px;
+	margin-left:4px;
+}
+.studio{
+	margin-top:24px;
+}
+.searchBox{
+	background-color: white;
+    	height: fit-content;
+    	border-radius: 5px;
+	margin-top: 13px;
+    	width: 350px; 
+}
+.searchBox input{
+	width: 317px;
+    	border: none;
+    	outline: none;
+}
+.search-container {
+        position: relative;
+	display:flex;
+        width: 300px;
+        margin: 20px;
+	top:1px;
+}
+.search-input {
+        width: 163%;
+        padding: 9px;
+        border: 1px solid #696e791f;
+        outline: none;
+}
+.search-icon {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 10px;
+        cursor: pointer;
+}
+.lens{
+	margin: 7px;
+    	font-size: 21px;
+    	color: #1a1c20ad;
+    	width: 36px;
+}
+.lensStyle{
+	border:1px solid #f1f1f1;
+	background-color: #f5f5f6;
+    	width: 36px;
+}
+.settings{
+	gap:25px;
+	margin-left:50px;
+}
+.profile a{
+	font-size:12px;
+	color:black;
+}
+.wishList a{
+	font-size:12px;
+	color:black;
+}
+.bag a{
+	font-size:12px;
+	color:black;
+	margin-left:3px;
+}
+.profile span{
+	margin-left:4px;
+}
+
+.wishList span{
+	margin-left:6px;
+}
+.settingsColor{
+	color:#0000088a;
+}
+.firstImage{
+	width:100%;
+}
+.firstImage img{
+	width:inherit;
+}
