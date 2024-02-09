@@ -1,0 +1,68 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+.categoryContents {
+	position: relative;
+	top: 90px;
+	left: 25px;
+}
+
+.categoryHint,
+.titleLeft,
+.categoryBody,
+.sidebarTitles {
+	display: flex;
+}
+
+.homeText,
+.toysText,
+.titleLeft p {
+	color: #282C3F;
+	font-size: 13px;
+}
+
+.homeText {
+	margin-right: 4px;
+}
+
+.toysText p {
+	font-weight: 700;
+}
+
+.titleLeft p {
+	font-size: 15px;
+	margin-right: 2px;
+}
+
+.titleLeft span {
+	color: #878B94;
+	font-size: 15px;
+}
+
+.categoryTitle {
+	margin-top: 12px;
+}
+
+.sidebarTitles {
+	display: flex;
+	gap: 100px;
+	margin-top: 20px;
+}
+
+.filter,
+.clear {
+	font-weight: 700;
+}
+
+.filter {
+	color: #000000;
+	font-size: 16px;
+}
+
+.clear {
+	color: #FF3F63;
+	font-size: 13px;
+}

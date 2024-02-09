@@ -8,6 +8,7 @@
 	height: 77px;
 	width: 100%;
 	position: fixed;
+	z-index:1;
 	background-color: white;
 	display: flex;
 	justify-content: flex-start;
@@ -32,7 +33,8 @@
 .listImg,
 .originalRow,
 .returnRow,
-.categoryTitle {
+.categoryTitle,
+.categoryFooter {
 	display: flex;
 }
 
@@ -63,7 +65,7 @@ a {
 }
 
 .linkText {
-	gap: 35px;
+	gap: 9px;
 }
 
 .linkText a {
@@ -87,7 +89,27 @@ a {
 .studio {
 	margin-top: 24px;
 }
-
+.textHover{
+	padding: 0px 12px 30px;
+}
+.MenC:hover{
+	border-bottom:3px solid #ee5f73;
+}
+.WomenC:hover{
+	border-bottom:3px solid	#fb56c1;
+}
+.KidsC:hover{
+	border-bottom:3px solid	#f26a10;
+}
+.HomeC:hover{
+	border-bottom:3px solid	#f2c210;
+}
+.BeautyC:hover{
+	border-bottom:3px solid	#0db7af;
+}
+.StudioC:hover{
+	border-bottom:3px solid	#ff3f6c;
+}
 .searchBox {
 	background-color: #1a1c20ad;
 	height: fit-content;
@@ -142,23 +164,12 @@ a {
 	gap: 25px;
 	margin-left: 50px;
 }
-
-.profile a {
+.settingsText
+{
 	font-size: 12px;
-	color: black;
+	color: #000000;
+	font-weight:700;
 }
-
-.wishList a {
-	font-size: 12px;
-	color: black;
-}
-
-.bag a {
-	font-size: 12px;
-	color: black;
-	margin-left: 3px;
-}
-
 .profile span {
 	margin-left: 4px;
 }
@@ -273,11 +284,11 @@ a {
 	height: 49px;
 }
 
-.txtStyle {
+.txtStyle, .categoryTitle, .addrHeader p {
 	color: #282C3F;
 }
 
-.txtPara {
+.txtPara, .categoryList, .categoryFooterRowA p {
 	color: #696B79;
 }
 
@@ -285,7 +296,7 @@ a {
 	margin-right: 92px;
 }
 
-.footerColD p {
+.footerColD, .categoryFooterRowA,.categoryFooterRowB p {
 	font-size: 16px;
 }
 
@@ -309,6 +320,74 @@ a {
 
 .sideBorder {
 	height: 1px;
-	width: 77%;
+	width: 72%;
 	background-color: #eaeaec;
 }
+.categoryTitle p{
+	font-size:11px;
+	font-weight:700;
+	margin-right:11px;
+}
+.adrDetails, .contNum p{
+	font-size:15px;
+}
+.addrHeader{
+	font-size:14px;
+}
+.categoryFooterRowA span{
+	color:#526CD0;
+	font-size:16px;	
+	font-weight:700;
+}
+.categoryFooterRowB, .adrDetails, .contNum p{
+	color:#94969F;
+		
+}
+.addrHeader{
+	margin-top: 31px;
+    	margin-bottom: 20px;
+}
+.addrHeader p{
+	font-weight:700;
+}
+.contNum span{
+	color:#526CD0;
+	font-size:15px;
+	font-weight:700;
+}
+.categoryList{
+	box-sizing: border-box;
+    	width: 1080px;
+	margin-top:23px;
+	margin-bottom:35px;
+	line-height:25px;
+}
+.categoryList p{
+	font-size:14px;
+}
+.categorySection{
+	position: relative;
+    	left: 120px; 
+	bottom:29px;
+}
+.addrSection{
+	position:relative;
+	left:118px;
+	border-top:1px solid #eaeaec;
+	border-bottom:1px solid #eaeaec;
+}
+.telPhn{
+	color:#94969F;
+	font-size:14px;
+}
+.adrssContent{
+	width:100%;
+	display:flex;
+	margin-bottom: 30px;
+}
+.contNum{
+	position: relative;
+    	top: 80px;
+    	left: 425px;
+}
+	
