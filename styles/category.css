@@ -7,7 +7,6 @@
 .categoryContents {
 	position: relative;
 	top: 90px;
-	left: 25px;
 }
 
 .categoryHint,
@@ -65,4 +64,38 @@
 .clear {
 	color: #FF3F63;
 	font-size: 13px;
+}
+
+.sidebarRowA {
+	border-top: 1px solid #eaeaec;
+	border-right: 1px solid #eaeaec;
+	border-bottom: 1px solid #eaeaec;
+	padding: 15px;
+}
+
+.specColor {
+	accent-color: #FF3C67;
+	margin: 0px 8px 0px;
+}
+
+.sidebarRowB,
+.sidebarRowC,
+.sidebarRowD {
+	border-right: 1px solid #eaeaec;
+	border-bottom: 1px solid #eaeaec;
+}
+
+.sidebarRowE {
+	border-right: 1px solid #eaeaec;
+}
+
+.menRowStyle {
+	font-size: 14px;
+	color: #282C3F;
+	font-weight: 700;
+}
+
+.commonRowStyle {
+	font-size: 14px;
+	color: #282C3F;
 }
