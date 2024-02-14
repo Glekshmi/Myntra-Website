@@ -12,7 +12,13 @@
 .categoryHint,
 .titleLeft,
 .categoryBody,
-.sidebarTitles {
+.sidebarTitles,
+.catHeaderLeftA,
+.catHeaderLeft,
+.catHeader,
+.watches,
+.watchImgRow,
+.selectColor {
 	display: flex;
 }
 
@@ -80,9 +86,14 @@
 
 .sidebarRowB,
 .sidebarRowC,
-.sidebarRowD {
+.sidebarRowD,
+.sidebarRowE {
 	border-right: 1px solid #eaeaec;
 	border-bottom: 1px solid #eaeaec;
+}
+
+.sidebarRowF {
+	border-right: 1px solid #eaeaec;
 }
 
 .sidebarRowE {
@@ -98,4 +109,109 @@
 .commonRowStyle {
 	font-size: 14px;
 	color: #282C3F;
+}
+
+.Colr {
+	width: 14px;
+	height: 14px;
+	border-radius: 20px;
+}
+
+.blackColr {
+	background-color: #36454F;
+}
+
+.blueColr {
+	background-color: #0074D9;
+}
+
+.pinkColr {
+	background-color: #F1A9C4;
+}
+
+.whiteColr {
+	background-color: #FFFFFF;
+	border: 1px solid #9fa8ab5e;
+}
+
+.redColr {
+	background-color: #D34B56;
+}
+
+.greenColr {
+	background-color: #5EB160;
+}
+
+.greyColr {
+	background-color: #9FA8AB;
+}
+
+input {
+	border: none;
+}
+
+.categoryImgSection {
+	margin-top: 17px;
+	margin-left: 35px;
+}
+
+.catHeaderRight {
+	position: relative;
+	left: 488px;
+}
+
+.catHeaderRightA {
+	border: 1px solid #dedee5;
+	box-sizing: border-box;
+	padding: 6px;
+	padding-right: 71px;
+}
+
+.watchImgRow {
+	gap: 65px;
+	margin-bottom: 25px;
+}
+
+.prodTitle,
+.prodPrice {
+	color: #282C3F;
+	font-weight: 700;
+}
+
+.prodTitle {
+	font-size: 16px;
+}
+
+.prodDesc,
+.prodPrice {
+	font-size: 14px;
+}
+
+.prodDesc,
+.prodPrevPrice,
+.prodOff {
+	font-weight: 400;
+}
+
+.prodDesc {
+	color: #535766;
+}
+
+.prodPrevPrice,
+.prodOff,
+.prodLeft {
+	font-size: 12px;
+}
+
+.prodPrevPrice {
+	color: #7E818C;
+	text-decoration: line-thorugh;
+}
+
+.prodOff {
+	color: #FF905A;
+}
+
+.prodLeft {
+	color: #FF5722;
 }
