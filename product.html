@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
    <head>
-      <title>Myntra</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <title>Responsive Grid</title>
       <link rel="stylesheet" href="./styles/productNav.css">
       <link rel="stylesheet" href="./styles/iconStyle.css">
       <link rel="stylesheet" href="./styles/product.css">
@@ -62,41 +65,259 @@
          </div>
       </header>
       <!-- header ends -->
-      <!-- product section begins -->
-      <div class="productSection">
-	<div class="prodHeader">
-		<div class="prodHeaderLeft">
-			<p>Home / Accessories / Boys Accessories / Watches /</p>
-		</div>
-		<div class="prodHeaderRight">
-			<p class="darkText">SWADESI STUFF Watches > More By SWADESI STUFF</p>
-		</div>		
-	</div>
-	<div class="mainContent">
-		<div>
-		<div class="contentA">
-      			<div class="imgA">
-      				<img src="./assets/watch1.png" width="369.22" height="494.95" alt="image"
-			</div>
-		</div>
-		<div class="contentB">
-			<div class="imgB">
-      				<img src="./assets/watch2.png" width="369.22" height="494.95" alt="image"
-			</div>
-		</div>
-		</div>
-		<div class="contentC">
-			<div class="imgC">
-				<img src="./assets/watch3.png" width="369.22" height="494.95" alt="image">
-			</div>
-		</div>
-		<div class="contentD">
-			<div class="imgD">
-				<img src="./assets/watch4.png" width="369.22" height="494.95" alt="image">
-			</div>
-		</div>
-	</div>
+      <div class="container">
+         <div class="row">
+            <div class="col-sm-12">
+               <div class="prodHeader">
+                  <div class="prodHeaderLeft">
+                     <p>Home / Accessories / Boys Accessories / Watches /</p>
+                  </div>
+                  <div class="prodHeaderRight">
+                     <p class="darkText">SWADESI STUFF Watches > More By SWADESI STUFF</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-sm-6">
+               <div class="contentLeft">
+                  <div class="contentRowFirst">
+                     <div class="contentA">
+                        <div class="imgA">
+                           <img src="./assets/capture1.png"  alt="image">
+                        </div>
+                     </div>
+                     <div class="contentB">
+                        <div class="imgB">
+                           <img src="./assets/capture2.png"  alt="image">
+                        </div>
+                     </div>
+                  </div>
+                  <div class="contentRowSecond">
+                     <div class="contentC">
+                        <div class="imgC">
+                           <img src="./assets/capture3.png" alt="image">
+                        </div>
+                     </div>
+                     <div class="contentD">
+                        <div class="imgD">
+                           <img src="./assets/capture4.png"   alt="image">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-sm-6">
+               <div class="contentRight">
+                  <div class="productDetails">
+                     <div class="productTitle">SWADESI STUFF</div>
+                     <div class="productHint">Girls Silevr-Toned & Pink Analogue Watch SDS 107 PINK</div>
+                     <div class="productRating">
+                        <img src="./assets/rating.png" alt="image">
+                     </div>
+                     <hr>
+                     <div class="productMrp"><span class="material-symbols-outlined">currency_rupee</span><span class="itemCurPrice">402</span><span class="itemPrevPrice">MRP Rs1299</span><span class="itemCurOff">(69% OFF)</span></div>
+                     <div class="taxDesc">inclusive of all taxes</div>
+                     <div class="productSize">
+                        <p class="selectItemSize">SELECT SIZE</p>
+                        <div class="sizeStyle">
+                           <p>Onesize</p>
+                        </div>
+                     </div>
+                     <div class="productBtn">
+                        <button class="addBtn">
+                        <span class="addBtnText">ADD TO BAG</span>
+                        </button>
+                        <button class="wishBtn">
+                        <span class="wishBtnText">WISHLIST</span>
+                        </button>
+                     </div>
+                     <hr>
+                     <div class="productPriceOff"><span class="material-symbols-outlined">currency_rupee</span><span class="proRate">Rs 402</span><span class="proPrevRate"> Rs1299</span><span class="proCurOff">(69% OFF)</span></div>
+                     <div class="sellerName">Seller:<span class="seller">SWADESI STUFF</span></div>
+                     <hr>
+                     <div class="delOption">
+                        <p>DELIVERY OPTIONS</p>
+                        <span></span>
+                     </div>
+                     <div class="delPincode">
+                        <form>
+                           <input type="text" placeholder="Enter Pincode">
+                           <div class="checkStatus">Check</div>
+                        </form>
+                     </div>
+                     <div>Please enter PIN code to check delivery time & Pay on Delivery Availability</div>
+                     <div class="productBenifits">
+                        <p>100% Original Products</p>
+                        <p>Pay on delivery might be available</p>
+                        <p>Easy 14 days returns and exchange</p>
+                        <p>Try & Buy might be available</p>
+                     </div>
+                     <div class="podBestOff">
+                        <div class="bestOffers">
+                           <p>BEST OFFERS</P>
+                           <span></span>
+                        </div>
+                        <p>Best Price: Rs. 309</p>
+                        <ul>
+                           <li>Applicable on: Orders above Rs.1299(only on first purchase)</li>
+                           <li>Coupon code:MYNTRA300</li>
+                           <li>Coupon Discount: Rs.93 off(check cart for final savings)</li>
+                        </ul>
+                        <p>View Eligible Products</p>
+                        <p>10% Instant Discount on Citi Credit & Debit Cards</p>
+                        <ul>
+                           <li>Min Speed Rs3,000: Max Discount Rs1,000.</li>
+                        </ul>
+                        <p>Terms & Condition</p>
+                        <p>EMI option available</p>
+                        <ul>
+                           <li>EMI starting from Rs.19/month</li>
+                        </ul>
+                        <p>View Plan</p>
+                     </div>
+                     <hr>
+                     <div class="productFeatures">
+                        <p class="prodHeadSub">Product Details</p>
+                        <div class="prodHead">
+                           <p class="prodHeadMain">Product Details</p>
+                           <span></span>					
+                        </div>
+                        <div class="featureDesc">
+                           <p>Display:Analogue</p>
+                           <p>Movement:Quartz</p>
+                           <p>Power source:Battery</p>
+                           <p>Dial style:Embellished round metal dial</p>
+                           <p>Features:Reset Time</p>
+                           <p>Strap style:Sliver-Toned bracelet style, metal strap with a foldover closure</p>
+                           <p>Water resistance:Non-Resistant</p>
+                           <p>Warranty:1 year</p>
+                           <p>Warranty provided by brand/manufacturer</p>
+                           <p>Comes in a Signature SWADESI STUFF case</p>
+                           <p>Material & Care</p>
+                           <p>With a soft,clean,cloth,wipe the inside of the band and wipe gently around the case back this will remove excess moisture and any lotion build-up that pccurred during general wear throughout the day.</p>
+                        </div>
+                        <div class="prodSpecifications">
+                           <p>Specifications</p>
+                           <div>
+                              <p>Display</p>
+                              <p>Analogue</p>
+                           </div>
+                           <hr>
+                           <div>
+                              <p>Movement</p>
+                              <p>Quartz</p>
+                           </div>
+                           <hr>
+                           <div>
+                              <p>Type</p>
+                              <p>Regular</p>
+                           </div>
+                           <hr>
+                           <div>
+                              <p>Make</p>
+                              <p>Non-Swiss Made</p>
+                           </div>
+                           <hr>
+                           <div>
+                              <p>See More</p>
+                           </div>
+                           <hr>
+                        </div>
+                        <div class="itemRatings">
+                           <div class="ratingHead">
+                              <p>Ratings</p>
+                              <span></span>
+                           </div>
+                           <div class="ratingSection">
+                              <div class="ratingSectionLeft">
+                                 <div>
+                                    <p>3.9</p>
+                                    <span class="material-symbols-outlined ratingStar">star</span>				
+                                 </div>
+                                 <p>61 Verified Buyers</p>
+                              </div>
+                              <div class="ratingBorder">|</div>
+                              <div class="ratingSectionRight">
+                                 <div class="ratingRowA">
+                                    <div>5</div>
+                                    <div>
+                                       <span></span>
+                                    </div>
+                                    <div>
+                                       <div></div>
+                                       <div></div>
+                                    </div>
+                                    <div>30</div>
+                                 </div>
+                                 <div class="ratingRowB">
+                                    <div>4</div>
+                                    <div>
+                                       <span></span>
+                                    </div>
+                                    <div>
+                                       <div></div>
+                                       <div></div>
+                                    </div>
+                                    <div>9</div>
+                                 </div>
+                                 <div class="ratingRowC">
+                                    <div>3</div>
+                                    <div>
+                                       <span></span>
+                                    </div>
+                                    <div>
+                                       <div></div>
+                                       <div></div>
+                                    </div>
+                                    <div>11</div>
+                                 </div>
+                                 <div class="ratingRowD">
+                                    <div>2</div>
+                                    <div>
+                                       <span></span>
+                                    </div>
+                                    <div>
+                                       <div></div>
+                                       <div></div>
+                                    </div>
+                                    <div>5</div>
+                                 </div>
+                                 <div class="ratingRowE">
+                                    <div>1</div>
+                                    <div>
+                                       <span></span>
+                                    </div>
+                                    <div>
+                                       <div></div>
+                                       <div></div>
+                                    </div>
+                                    <div>6</div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="customerReview">
+                              <p class="reviewHead">Customer Reviews(1)</p>
+                              <div class="userComment">
+                                 <div>
+                                    5
+                                    <span></span>
+                                 </div>
+                                 <div>
+                                    <p>Worth purchase</p>
+                                 </div>
+                              </div>
+                              <p>Mohd Asif | 2Sept 2023</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
       </div>
-      <!-- product section ends -->
-</body>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+   </body>
 </html>
