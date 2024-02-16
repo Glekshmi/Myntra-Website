@@ -8,12 +8,11 @@
 	height: 77px;
 	width: 100%;
 	position: fixed;
-	//z-index:1;
+	z-index: 1;
 	background-color: white;
 	align-items: center;
 	justify-content: space-between;
 	gap: 10%;
-	//box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
 	border-bottom: 1px solid #eaeaec;
 }
 
@@ -26,7 +25,13 @@
 .headerRight,
 .headerMid,
 .cartDesc,
-.delTimeCode {
+.delTimeCode,
+.selectedQty,
+.prodImgDesc,
+.prodSizeDesc,
+.prodQty,
+.prodLeftCart,
+.wishlistProd {
 	display: flex;
 }
 
@@ -69,7 +74,8 @@
 }
 
 .address,
-.payment {
+.payment,
+.freeShipping {
 	color: #696B79;
 }
 
@@ -89,17 +95,174 @@
 	justify-content: center;
 }
 
-.delTimeCode {
-	border: 1px solid #eaeaec;
-	border-radius: 5px;
-	padding: 16px;
-	width: 593.39px;
+.delTimeCode,
+.sizeQtyLeft {
 	display: flex;
 	justify-content: space-between;
 }
 
-.delPincode {
+.delTimeCode,
+.availOff,
+.prodImgDesc {
+	border: 1px solid #eaeaec;
+	border-radius: 5px;
+	padding: 16px;
+	width: 593.39px;
+}
+
+.delPincode,
+.showMore {
 	color: #FF3E6C;
+}
+
+.delPincode {
 	border: 1px solid #FF3E6C;
 	border-radius: 5px;
+}
+
+.delTimeService,
+.availTitle,
+.prodName,
+.prodCatDesc,
+.prodSizeDesc,
+.prodQty,
+.curProdPrice,
+.orgProdPrice,
+.CurProdOff,
+.fromWishlist,
+.applyCoupons,
+.donateText,
+.rupees,
+.knwMore,
+.knowMoree,
+.MrpDetails,
+.priceRow,
+.placeOrder {
+	font-size: 14px;
+}
+
+.delTimeService,
+.availTitle,
+.itemsSel,
+.discountPercent,
+.prodName,
+.prodCatDesc,
+.prodSizeDesc,
+.prodQty,
+.curProdPrice,
+.prodLeftCart,
+.fromWishlist,
+.applyCoupons,
+.donateText,
+.rupees,
+.MrpDetails {
+	color: #282C3F;
+}
+
+.delTimeService,
+.availTitle,
+.itemsSel,
+.prodLeftCart,
+.applyCoupons,
+.support,
+.donateText,
+.rupees,
+.knwMore,
+.itemPriceDet {
+	font-weight: 700;
+}
+
+.itemsSel {
+	font-size: 16px;
+}
+
+.itemRemove,
+.itemWishlist,
+.coupons,
+.support,
+.itemPriceDet {
+	color: #535766;
+}
+
+.itemRemove,
+.itemWishlist,
+.soldByDesc,
+.prodLeftCart,
+.coupons,
+.apply,
+.support,
+.itemPriceDet,
+.freeShipping {
+	font-size: 12px;
+}
+
+.discountPercent {
+	font-size: 13px;
+}
+
+.selectedQty,
+.sizeQtyLeft {
+	align-items: center;
+}
+
+.imgCheckbox {
+	background-image: url("../assets/52a062ab-a40c-40eb-a695-e5a367fc17921663910675334PantaloonsBabyBoysNavyBlueQuiltedJacket1.webp");
+	width: 200px;
+	height: 200px;
+}
+
+.soldByDesc,
+.orgProdPrice {
+	color: #94969F;
+}
+
+.prodLeftCart {
+	color: #FF5722;
+}
+
+.CurProdOff {
+	color: #F16565;
+}
+
+.prodSizeDesc,
+.prodQty,
+.prodLeftCart,
+.wishlistProd {
+	border: 1px solid #eaeaec;
+	border-radius: 5px;
+}
+
+.prodImgDesc,
+.prodSizeDesc,
+.prodQty,
+.prodLeftCart {
+	align-items: center;
+	justify-content: space-between;
+}
+
+.orgProdPrice {
+	text-decoration: line-through;
+}
+
+.apply,
+.knowMoree {
+	color: #FF3F6C;
+}
+
+.knwMore {
+	color: #FF3FC;
+}
+
+.priceRow {
+	color: #03A685;
+}
+
+.totAmt,
+.amtValue {
+	color: #3E4152;
+	font-size: 15px;
+}
+
+.placeOrder {
+	color: #FFFFFF;
 }
