@@ -1,0 +1,672 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+.navSection {
+	height: 77px;
+	width: 100%;
+	//position: fixed;
+	z-index: 1;
+	background-color: white;
+	align-items: center;
+	justify-content: space-between;
+	gap: 10%;
+	border-bottom: 1px solid #eaeaec;
+}
+
+.navLogo {
+	margin-left: 1px;
+	margin-top: 1px;
+}
+
+.navSection,
+.headerRight,
+.headerMid,
+.cartDesc,
+.delTimeCode,
+.selectedQty,
+.prodImgDesc,
+.prodSizeDesc,
+.prodQty,
+.prodLeftCart,
+.wishlistProd {
+	display: flex;
+}
+
+.headerMid {
+	align-items: baseline;
+	line-height: 22px;
+	    margin-left: 35px;
+}
+
+.navLogo {
+	margin-top: 17px;
+}
+
+.headerLeft {
+	margin-left: 43px;
+	gap: 27px;
+}
+
+.headerRight {
+	align-items: center;
+	margin-right: 65px;
+}
+
+.headerRight img {
+	width: 26px;
+	height: 28px;
+	margin-right: 4px;
+}
+
+.bag,
+.address,
+.payment {
+	font-size: 11px;
+	letter-spacing: 3px;
+	font-weight: 600;
+}
+
+.payment {
+	color: #20BD99;
+	border-bottom: 2px solid #20BD99;
+}
+
+.address,
+.bag,
+.freeShipping {
+	color: #696B79;
+}
+
+.secure {
+	font-family: Assistant, Helvetica, Arial, sans-serif;
+	letter-spacing: 3px;
+	font-weight: 600;
+	font-size: 11px;
+	color: #535766;
+}
+
+.cartDesc {
+	position: relative;
+	//top: 78px;
+	display: flex;
+	//align-items: center;
+	justify-content: center;
+}
+
+.delTimeCode,
+.sizeQtyLeft {
+	display: flex;
+}
+.delTimeCode{
+	justify-content: space-between;
+}
+.delTimeCode,
+.availOff,
+.prodImgDesc {
+	border: 1px solid #eaeaec;
+	border-radius: 5px;
+	padding: 16px;
+	width: 532.39px;
+}
+
+.delPincode,
+.showMore {
+	color: #FF3E6C;
+}
+
+.delPincode {
+	border: 1px solid #FF3E6C;
+	padding: 6px;
+}
+
+.delTimeService,
+.availTitle,
+.prodName,
+.prodCatDesc,
+.prodSizeDesc,
+.prodQty,
+.curProdPrice,
+.orgProdPrice,
+.CurProdOff,
+.fromWishlist,
+.applyCoupons,
+.donateText,
+.rupees,
+.knwMore,
+.knowMoree,
+.MrpDetails,
+.priceRow,
+.placeOrder,
+.wishlistProd {
+	font-size: 14px;
+}
+
+.delTimeService,
+.availTitle,
+.itemsSel,
+.discountPercent,
+.prodName,
+.prodCatDesc,
+.prodSizeDesc,
+.prodQty,
+.curProdPrice,
+.prodLeftCart,
+.fromWishlist,
+.applyCoupons,
+.donateText,
+.rupees,
+.MrpDetails,
+.retDays,
+.wishlistProd {
+	color: #282C3F;
+}
+
+.delTimeService,
+.availTitle,
+.itemsSel,
+.prodLeftCart,
+.applyCoupons,
+.support,
+.donateText,
+.rupees,
+.knwMore,
+.itemPriceDet,
+.wishlistProd {
+	font-weight: 700;
+}
+
+.itemsSel {
+	font-size: 16px;
+}
+
+.itemRemove,
+.itemWishlist,
+.coupon,
+.support,
+.itemPriceDet {
+	color: #535766;
+}
+
+.itemRemove,
+.itemWishlist,
+.soldByDesc,
+.prodLeftCart,
+.coupon,
+.apply,
+.support,
+.itemPriceDet,
+.freeShipping {
+	font-size: 12px;
+}
+
+.discountPercent {
+	font-size: 13px;
+}
+
+.selectedQty,
+.sizeQtyLeft {
+	align-items: center;
+}
+
+.imgCheckbox {
+	background-image: url("../assets/52a062ab-a40c-40eb-a695-e5a367fc17921663910675334PantaloonsBabyBoysNavyBlueQuiltedJacket1.webp");
+	background-size: 100%;
+	width: 110px;
+    height: 150px;
+	margin-top:7px;
+}
+
+.soldByDesc,
+.orgProdPrice {
+	color: #94969F;
+}
+
+.prodLeftCart {
+	color: #FF5722;
+}
+
+.CurProdOff {
+	color: #F16565;
+}
+
+.prodSizeDesc,
+.prodQty,
+.wishlistProd {
+	border: 1px solid #eaeaec;
+	border-radius: 5px;
+}
+
+
+.prodSizeDesc,
+.prodQty,
+.prodLeftCart {
+	align-items: center;
+	justify-content: space-between;
+}
+
+.orgProdPrice {
+	text-decoration: line-through;
+}
+
+.apply,
+.knowMoree {
+	color: #FF3F6C;
+}
+
+.knwMore {
+	color: #FF3FC;
+}
+
+.priceRow {
+	color: #03A685;
+}
+
+.totAmt,
+.amtValue {
+	color: #3E4152;
+	font-size: 15px;
+}
+
+.placeOrder {
+	color: #FFFFFF;
+}
+.descLeft, .selectedQty{
+	margin-bottom: 40px;
+}
+.selectedQty{
+	box-sizing: border-box;
+    	margin-left: 18px;	
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.reMove{
+	display: flex;
+    align-items: center;
+}
+.delTimeCode{
+	margin-bottom: 10px;
+}
+.availOff{
+	margin-bottom: 25px;
+	line-height: 25px;
+}
+.availOffHead{
+	display: flex;
+    align-items: center;
+    gap: 14px;	
+}
+.discountPercent {
+    margin-left: 12px;
+}
+.showMore {
+    margin-left: 12px;
+	font-weight:700;
+} 
+.showIcon{
+	display:flex;
+	align-items:center;
+}
+.showIcon svg{
+	fill: #FF3E6C;
+    margin-left: 4px;
+    width: 5px;
+}
+.itemRemove{
+	border-right: 1px solid #d1d1d9;;
+    height: 29px;
+    display: flex;
+    align-items: center;
+}
+.itemWishlist{
+	margin-right: 12px;
+    margin-left: 20px;
+	color:#535766;
+	font-weight:700;
+}
+.reMoveText{
+	margin-right: 20px;
+	color:#535766;
+	font-weight:700;
+}
+.imgCheckbox input{
+	margin-left: 5px;
+    margin-top: 5px;
+}
+.prodImgDescDetails{
+	display: flex;
+
+}
+.prodImgDesc{
+	padding:0px;
+	display: flex;
+	margin-bottom: 25px;
+	
+}
+.prodDescDetails{
+	margin-left: 12px;
+}
+.prodName, .prodSizeVal, .prodQtyVal{
+	font-weight:700;
+}
+.sizeQtyLeft{
+	padding:8px 0px;
+	gap: 9px;
+}
+.prodSizeVal, .prodQtyVal{
+	padding-left:5px;
+
+}
+.prodSizeDesc, .prodQty{
+	background: #f5f5f6;
+	border-radius: 2px;
+}
+.downArrowIcon{
+	font-size:15px;
+}
+.prodLeftCart{
+	border-radius: 2px;
+	padding:2px;
+	border: 1px solid #FF5722;;
+}
+.CurRupee{
+	display:flex;
+	align-items:center;
+}
+.ProdFinalRate{
+	display:flex;
+	gap:10px;
+}
+.orgProdPrice {
+	display: flex;
+    align-items: center;
+	
+}
+.curProdPrice{
+	font-weight:700;
+}
+.retDays{
+	font-weight: 700;
+	font-size:12px;
+	margin-left: 6px;
+}
+.retAvailText{
+	font-size:12px;
+}
+.prodReturnDesc{
+	display: flex;
+    align-items: center;
+	margin-top: 10px;
+}
+.wishlistProd{
+	padding: 16px 12px 16px 16px;
+	display: flex;
+    justify-content: space-between;
+}
+.addMoreIcon{
+	display: flex;
+	gap:12px;
+}
+.descSubLeft{
+	position: relative;
+    top: 30px;
+	margin-left: 60px;
+	margin-right: 20px;
+}
+.descLeft{
+	border-right:1px solid #eaeaec;
+	height: 755px;
+
+}
+.coupon{
+	font-weight: 700;
+	margin-bottom: 16px;
+}
+.couponIcon{
+	display:flex;
+	gap:15px;
+}
+.coupons{
+	display: flex;
+    align-items: center;
+    //justify-content: space-between;
+	border-bottom: 1px solid #eaeaec;
+    padding-bottom: 13px;
+	gap:136px;
+}
+.donate, .donateAmount{
+	display: flex;
+    align-items: center;
+}
+.descRight{
+	padding: 24px 0px 0px 16px;
+	    margin-right: 70px;
+}
+.apply{
+	border: 1px solid;
+    padding: 4px 16px;
+}
+.support{
+	font-size:11px;
+	margin: 12px 0px 24px;
+}
+.rupees{
+	border: 1px solid #eaeaec;
+    padding: 6px 15px;
+	border-radius:20px;
+}
+ .donateAmount{
+	gap:12px;
+}
+//.rupees svg{
+	fill:#ff3f6c;
+}
+.donate{
+	gap:20px;
+	margin-bottom: 20px;
+}
+.knwMore{
+	color:#ff3f6c;
+	border-bottom: 1px solid #eaeaec;
+    padding-bottom: 25px;
+}
+.itemPriceDet{
+	font-weight:700;
+	margin: 24px 0px 16px;
+}
+.totMrpAmt{
+	display: flex;
+    justify-content: space-between;
+}
+.amtInRupee{
+	display:flex;
+	justify-content: space-between;
+}
+.amtInRupee p{
+	font-weight:700;
+}
+.descSubLeft{
+	margin-right:20px;
+}
+.MrpDetailsNewA{
+	margin-left:67px;	
+}
+.MrpDetailsNewB{
+	margin-left:53px;
+}
+.priceRowNewA{
+	margin-left:78px;
+}
+.priceRowNewB{
+	margin-left:83px;	
+}
+.applyCoup{
+	margin-left:24px;
+}
+.knowLink{
+	margin-left:7px;
+	font-weight:700;
+}
+.knwMore{
+	color:#ff3f6c;
+	margin-top: 15px;
+    border-bottom: 1px solid #eaeaec;
+    padding-bottom: 25px;
+}
+.Mrp{
+	margin-bottom: 8px;
+}
+.amtInRupee{
+	margin-top: 15px;
+    margin-bottom: 15px;
+}
+.placeOrder{
+	border: 1px solid #ff3f6c;
+    color: #ffffff;
+    background-color: #ff3f6c;
+    font-weight: 700;
+    padding: 10px 16px;
+    display: flex;
+    justify-content: center;
+}
+.xIcon svg{
+	width:14px;
+	height:14px;
+}
+.totMrpAmt{
+	border-bottom: 1px solid #eaeaec;
+    padding-bottom: 15px;
+}
+.paymentMode, .cashDelIcon, .recStarIcon{
+	display:flex;
+}
+.bankOffer, .instantDis, .choosePayMode, .recPayText, .cashDel, .giftText{
+	color:#424553;
+}
+.instantDis{
+	font-size:13px;	
+}
+.choosePayMode, .recPayText{
+	font-size:16px;
+}
+.choosePayMode,.recPayText,.recText,.cashDel,.delOption{
+	font-weight:700;
+}
+.recText{
+	color:#ff3f6c;	
+}
+.recText,.cashDel,.delOption{
+	font-size:14px;	
+}
+.curOffer{
+	color:#03a685;
+}
+.curOffer{
+	font-size:12px;	
+}
+.delOption{
+	color:#282c3f;
+}
+.cashOnDelIcon{
+	border: 1px solid #eaeaec;
+    border-radius: 17px;
+    width: 35px;
+    height: 35px;
+}
+.cashOnDelIcon svg{
+	padding-left: 8px;
+    padding-top: 10px;
+}
+.cashDelIcon{
+	gap: 98px;
+}
+.paymentMode{
+	gap:20px;
+}
+.recStarIcon{
+	align-items:center;
+}
+.sidebarTitle{
+	border-left: 5px solid #ff3f6c;
+}
+.paymentTypeA{
+	background-color:#f4f4f5;
+	line-height: 55px;
+}
+.cashdelBorder{
+	border-top: 1px solid #eaeaec;
+}
+.cashdelBorder, .phonepeBorder, .debBorder, .walletBorder, .payLaterBorder, .emiBorder, .netBorder{
+	border-bottom: 1px solid #eaeaec;
+	border-right: 1px solid #eaeaec;
+}
+.cashdelBorder, .phonepeBorder, .debBorder, .walletBorder, .payLaterBorder, .emiBorder, .netBorder{
+	padding:0px 0px 0px 8px;
+}
+.gpayIcon img{
+	width:35px;
+	height:35px;
+}
+.phonepeIcon img{
+	width:30px;
+	height:30px;
+}
+.gpayIcon,.phonepeIcon{
+	display: flex;
+    align-items: center;
+	justify-content: space-between;
+}
+.gpay, .phonepe{
+	border: 1px solid #e9e9eb;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+	box-sizing: border-box;
+}
+.gpay{
+    padding-left: 3px;
+    padding-top: 3px;
+}
+.phonepe{
+    padding-left: 4px;
+    padding-top: 4px;
+}
+.availOff{
+	padding-top: 16px;
+    padding-bottom: 12px;
+    padding-right: 83px;
+}
+.prodImgDesc{
+	gap: 36px;
+    width: 637px;
+}
+.recStarIcon{
+	padding-left: 15px;
+    padding-bottom: 22px;
+    padding-top: 17px;
+    gap: 15px;
+}
+.recPayText{
+	padding-top:20px;
+}
+.contentList{
+	margin-top: 45px;
+}
+.cashDelIcon, .gpayIcon, .phonepeIcon{
+	border-bottom: 1px dashed #eaeaec;
+	padding-bottom: 15px;
+}
+.gpayIcon, .phonepeIcon{
+	padding-top: 15px;
+}
+.applyGift{
+	color: #ff3f6c;
+	font-weight: 700;
+    font-size: 12px;
+}
+.choosePayMode{
+	margin-bottom: 14px;
+}
