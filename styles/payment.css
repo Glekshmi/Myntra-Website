@@ -38,7 +38,7 @@
 .headerMid {
 	align-items: baseline;
 	line-height: 22px;
-	    margin-left: 35px;
+	margin-left: 35px;
 }
 
 .navLogo {
@@ -100,9 +100,11 @@
 .sizeQtyLeft {
 	display: flex;
 }
-.delTimeCode{
+
+.delTimeCode {
 	justify-content: space-between;
 }
+
 .delTimeCode,
 .availOff,
 .prodImgDesc {
@@ -215,8 +217,8 @@
 	background-image: url("../assets/52a062ab-a40c-40eb-a695-e5a367fc17921663910675334PantaloonsBabyBoysNavyBlueQuiltedJacket1.webp");
 	background-size: 100%;
 	width: 110px;
-    height: 150px;
-	margin-top:7px;
+	height: 150px;
+	margin-top: 7px;
 }
 
 .soldByDesc,
@@ -273,400 +275,537 @@
 .placeOrder {
 	color: #FFFFFF;
 }
-.descLeft, .selectedQty{
+
+.descLeft,
+.selectedQty {
 	margin-bottom: 40px;
 }
-.selectedQty{
+
+.selectedQty {
 	box-sizing: border-box;
-    	margin-left: 18px;	
+	margin-left: 18px;
 	display: flex;
-    align-items: center;
-    justify-content: space-between;
+	align-items: center;
+	justify-content: space-between;
 }
-.reMove{
+
+.reMove {
 	display: flex;
-    align-items: center;
+	align-items: center;
 }
-.delTimeCode{
+
+.delTimeCode {
 	margin-bottom: 10px;
 }
-.availOff{
+
+.availOff {
 	margin-bottom: 25px;
 	line-height: 25px;
 }
-.availOffHead{
-	display: flex;
-    align-items: center;
-    gap: 14px;	
-}
-.discountPercent {
-    margin-left: 12px;
-}
-.showMore {
-    margin-left: 12px;
-	font-weight:700;
-} 
-.showIcon{
-	display:flex;
-	align-items:center;
-}
-.showIcon svg{
-	fill: #FF3E6C;
-    margin-left: 4px;
-    width: 5px;
-}
-.itemRemove{
-	border-right: 1px solid #d1d1d9;;
-    height: 29px;
-    display: flex;
-    align-items: center;
-}
-.itemWishlist{
-	margin-right: 12px;
-    margin-left: 20px;
-	color:#535766;
-	font-weight:700;
-}
-.reMoveText{
-	margin-right: 20px;
-	color:#535766;
-	font-weight:700;
-}
-.imgCheckbox input{
-	margin-left: 5px;
-    margin-top: 5px;
-}
-.prodImgDescDetails{
-	display: flex;
 
-}
-.prodImgDesc{
-	padding:0px;
+.availOffHead {
 	display: flex;
-	margin-bottom: 25px;
-	
+	align-items: center;
+	gap: 14px;
 }
-.prodDescDetails{
+
+.discountPercent {
 	margin-left: 12px;
 }
-.prodName, .prodSizeVal, .prodQtyVal{
-	font-weight:700;
+
+.showMore {
+	margin-left: 12px;
+	font-weight: 700;
 }
-.sizeQtyLeft{
-	padding:8px 0px;
-	gap: 9px;
+
+.showIcon {
+	display: flex;
+	align-items: center;
 }
-.prodSizeVal, .prodQtyVal{
-	padding-left:5px;
+
+.showIcon svg {
+	fill: #FF3E6C;
+	margin-left: 4px;
+	width: 5px;
+}
+
+.itemRemove {
+	border-right: 1px solid #d1d1d9;
+	;
+	height: 29px;
+	display: flex;
+	align-items: center;
+}
+
+.itemWishlist {
+	margin-right: 12px;
+	margin-left: 20px;
+	color: #535766;
+	font-weight: 700;
+}
+
+.reMoveText {
+	margin-right: 20px;
+	color: #535766;
+	font-weight: 700;
+}
+
+.imgCheckbox input {
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.prodImgDescDetails {
+	display: flex;
 
 }
-.prodSizeDesc, .prodQty{
+
+.prodImgDesc {
+	padding: 0px;
+	display: flex;
+	margin-bottom: 25px;
+
+}
+
+.prodDescDetails {
+	margin-left: 12px;
+}
+
+.prodName,
+.prodSizeVal,
+.prodQtyVal {
+	font-weight: 700;
+}
+
+.sizeQtyLeft {
+	padding: 8px 0px;
+	gap: 9px;
+}
+
+.prodSizeVal,
+.prodQtyVal {
+	padding-left: 5px;
+
+}
+
+.prodSizeDesc,
+.prodQty {
 	background: #f5f5f6;
 	border-radius: 2px;
 }
-.downArrowIcon{
-	font-size:15px;
+
+.downArrowIcon {
+	font-size: 15px;
 }
-.prodLeftCart{
+
+.prodLeftCart {
 	border-radius: 2px;
-	padding:2px;
-	border: 1px solid #FF5722;;
+	padding: 2px;
+	border: 1px solid #FF5722;
+	;
 }
-.CurRupee{
-	display:flex;
-	align-items:center;
+
+.CurRupee {
+	display: flex;
+	align-items: center;
 }
-.ProdFinalRate{
-	display:flex;
-	gap:10px;
+
+.ProdFinalRate {
+	display: flex;
+	gap: 10px;
 }
+
 .orgProdPrice {
 	display: flex;
-    align-items: center;
-	
+	align-items: center;
+
 }
-.curProdPrice{
-	font-weight:700;
-}
-.retDays{
+
+.curProdPrice {
 	font-weight: 700;
-	font-size:12px;
+}
+
+.retDays {
+	font-weight: 700;
+	font-size: 12px;
 	margin-left: 6px;
 }
-.retAvailText{
-	font-size:12px;
+
+.retAvailText {
+	font-size: 12px;
 }
-.prodReturnDesc{
+
+.prodReturnDesc {
 	display: flex;
-    align-items: center;
+	align-items: center;
 	margin-top: 10px;
 }
-.wishlistProd{
+
+.wishlistProd {
 	padding: 16px 12px 16px 16px;
 	display: flex;
-    justify-content: space-between;
+	justify-content: space-between;
 }
-.addMoreIcon{
+
+.addMoreIcon {
 	display: flex;
-	gap:12px;
+	gap: 12px;
 }
-.descSubLeft{
+
+.descSubLeft {
 	position: relative;
-    top: 30px;
+	top: 30px;
 	margin-left: 60px;
 	margin-right: 20px;
 }
-.descLeft{
-	border-right:1px solid #eaeaec;
+
+.descLeft {
+	border-right: 1px solid #eaeaec;
 	height: 755px;
 
 }
-.coupon{
+
+.coupon {
 	font-weight: 700;
 	margin-bottom: 16px;
 }
-.couponIcon{
-	display:flex;
-	gap:15px;
-}
-.coupons{
+
+.couponIcon {
 	display: flex;
-    align-items: center;
-    //justify-content: space-between;
+	gap: 15px;
+}
+
+.coupons {
+	display: flex;
+	align-items: center;
+	//justify-content: space-between;
 	border-bottom: 1px solid #eaeaec;
-    padding-bottom: 13px;
-	gap:136px;
+	padding-bottom: 13px;
+	gap: 136px;
 }
-.donate, .donateAmount{
+
+.donate,
+.donateAmount {
 	display: flex;
-    align-items: center;
+	align-items: center;
 }
-.descRight{
+
+.descRight {
 	padding: 24px 0px 0px 16px;
-	    margin-right: 70px;
+	margin-right: 70px;
 }
-.apply{
+
+.apply {
 	border: 1px solid;
-    padding: 4px 16px;
+	padding: 4px 16px;
 }
-.support{
-	font-size:11px;
+
+.support {
+	font-size: 11px;
 	margin: 12px 0px 24px;
 }
-.rupees{
+
+.rupees {
 	border: 1px solid #eaeaec;
-    padding: 6px 15px;
-	border-radius:20px;
+	padding: 6px 15px;
+	border-radius: 20px;
 }
- .donateAmount{
-	gap:12px;
+
+.donateAmount {
+	gap: 12px;
 }
+
 //.rupees svg{
-	fill:#ff3f6c;
+fill:#ff3f6c;
 }
-.donate{
-	gap:20px;
+
+.donate {
+	gap: 20px;
 	margin-bottom: 20px;
 }
-.knwMore{
-	color:#ff3f6c;
+
+.knwMore {
+	color: #ff3f6c;
 	border-bottom: 1px solid #eaeaec;
-    padding-bottom: 25px;
+	padding-bottom: 25px;
 }
-.itemPriceDet{
-	font-weight:700;
+
+.itemPriceDet {
+	font-weight: 700;
 	margin: 24px 0px 16px;
 }
-.totMrpAmt{
+
+.totMrpAmt {
 	display: flex;
-    justify-content: space-between;
-}
-.amtInRupee{
-	display:flex;
 	justify-content: space-between;
 }
-.amtInRupee p{
-	font-weight:700;
+
+.amtInRupee {
+	display: flex;
+	justify-content: space-between;
 }
-.descSubLeft{
-	margin-right:20px;
+
+.amtInRupee p {
+	font-weight: 700;
 }
-.MrpDetailsNewA{
-	margin-left:67px;	
+
+.descSubLeft {
+	margin-right: 20px;
 }
-.MrpDetailsNewB{
-	margin-left:53px;
+
+.MrpDetailsNewA {
+	margin-left: 67px;
 }
-.priceRowNewA{
-	margin-left:78px;
+
+.MrpDetailsNewB {
+	margin-left: 53px;
 }
-.priceRowNewB{
-	margin-left:83px;	
+
+.priceRowNewA {
+	margin-left: 78px;
 }
-.applyCoup{
-	margin-left:24px;
+
+.priceRowNewB {
+	margin-left: 83px;
 }
-.knowLink{
-	margin-left:7px;
-	font-weight:700;
+
+.applyCoup {
+	margin-left: 24px;
 }
-.knwMore{
-	color:#ff3f6c;
+
+.knowLink {
+	margin-left: 7px;
+	font-weight: 700;
+}
+
+.knwMore {
+	color: #ff3f6c;
 	margin-top: 15px;
-    border-bottom: 1px solid #eaeaec;
-    padding-bottom: 25px;
+	border-bottom: 1px solid #eaeaec;
+	padding-bottom: 25px;
 }
-.Mrp{
+
+.Mrp {
 	margin-bottom: 8px;
 }
-.amtInRupee{
+
+.amtInRupee {
 	margin-top: 15px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
 }
-.placeOrder{
+
+.placeOrder {
 	border: 1px solid #ff3f6c;
-    color: #ffffff;
-    background-color: #ff3f6c;
-    font-weight: 700;
-    padding: 10px 16px;
-    display: flex;
-    justify-content: center;
+	color: #ffffff;
+	background-color: #ff3f6c;
+	font-weight: 700;
+	padding: 10px 16px;
+	display: flex;
+	justify-content: center;
 }
-.xIcon svg{
-	width:14px;
-	height:14px;
+
+.xIcon svg {
+	width: 14px;
+	height: 14px;
 }
-.totMrpAmt{
+
+.totMrpAmt {
 	border-bottom: 1px solid #eaeaec;
-    padding-bottom: 15px;
+	padding-bottom: 15px;
 }
-.paymentMode, .cashDelIcon, .recStarIcon{
-	display:flex;
+
+.paymentMode,
+.cashDelIcon,
+.recStarIcon {
+	display: flex;
 }
-.bankOffer, .instantDis, .choosePayMode, .recPayText, .cashDel, .giftText{
-	color:#424553;
+
+.bankOffer,
+.instantDis,
+.choosePayMode,
+.recPayText,
+.cashDel,
+.giftText {
+	color: #424553;
 }
-.instantDis{
-	font-size:13px;	
+
+.instantDis {
+	font-size: 13px;
 }
-.choosePayMode, .recPayText{
-	font-size:16px;
+
+.choosePayMode,
+.recPayText {
+	font-size: 16px;
 }
-.choosePayMode,.recPayText,.recText,.cashDel,.delOption{
-	font-weight:700;
+
+.choosePayMode,
+.recPayText,
+.recText,
+.cashDel,
+.delOption {
+	font-weight: 700;
 }
-.recText{
-	color:#ff3f6c;	
+
+.recText {
+	color: #ff3f6c;
 }
-.recText,.cashDel,.delOption{
-	font-size:14px;	
+
+.recText,
+.cashDel,
+.delOption {
+	font-size: 14px;
 }
-.curOffer{
-	color:#03a685;
+
+.curOffer {
+	color: #03a685;
 }
-.curOffer{
-	font-size:12px;	
+
+.curOffer {
+	font-size: 12px;
 }
-.delOption{
-	color:#282c3f;
+
+.delOption {
+	color: #282c3f;
 }
-.cashOnDelIcon{
+
+.cashOnDelIcon {
 	border: 1px solid #eaeaec;
-    border-radius: 17px;
-    width: 35px;
-    height: 35px;
+	border-radius: 17px;
+	width: 35px;
+	height: 35px;
 }
-.cashOnDelIcon svg{
+
+.cashOnDelIcon svg {
 	padding-left: 8px;
-    padding-top: 10px;
+	padding-top: 10px;
 }
-.cashDelIcon{
+
+.cashDelIcon {
 	gap: 98px;
 }
-.paymentMode{
-	gap:20px;
+
+.paymentMode {
+	gap: 20px;
 }
-.recStarIcon{
-	align-items:center;
+
+.recStarIcon {
+	align-items: center;
 }
-.sidebarTitle{
+
+.sidebarTitle {
 	border-left: 5px solid #ff3f6c;
 }
-.paymentTypeA{
-	background-color:#f4f4f5;
+
+.paymentTypeA {
+	background-color: #f4f4f5;
 	line-height: 55px;
 }
-.cashdelBorder{
+
+.cashdelBorder {
 	border-top: 1px solid #eaeaec;
 }
-.cashdelBorder, .phonepeBorder, .debBorder, .walletBorder, .payLaterBorder, .emiBorder, .netBorder{
+
+.cashdelBorder,
+.phonepeBorder,
+.debBorder,
+.walletBorder,
+.payLaterBorder,
+.emiBorder,
+.netBorder {
 	border-bottom: 1px solid #eaeaec;
 	border-right: 1px solid #eaeaec;
 }
-.cashdelBorder, .phonepeBorder, .debBorder, .walletBorder, .payLaterBorder, .emiBorder, .netBorder{
-	padding:0px 0px 0px 8px;
+
+.cashdelBorder,
+.phonepeBorder,
+.debBorder,
+.walletBorder,
+.payLaterBorder,
+.emiBorder,
+.netBorder {
+	padding: 0px 0px 0px 8px;
 }
-.gpayIcon img{
-	width:35px;
-	height:35px;
+
+.gpayIcon img {
+	width: 35px;
+	height: 35px;
 }
-.phonepeIcon img{
-	width:30px;
-	height:30px;
+
+.phonepeIcon img {
+	width: 30px;
+	height: 30px;
 }
-.gpayIcon,.phonepeIcon{
+
+.gpayIcon,
+.phonepeIcon {
 	display: flex;
-    align-items: center;
+	align-items: center;
 	justify-content: space-between;
 }
-.gpay, .phonepe{
+
+.gpay,
+.phonepe {
 	border: 1px solid #e9e9eb;
-    border-radius: 20px;
-    width: 40px;
-    height: 40px;
+	border-radius: 20px;
+	width: 40px;
+	height: 40px;
 	box-sizing: border-box;
 }
-.gpay{
-    padding-left: 3px;
-    padding-top: 3px;
+
+.gpay {
+	padding-left: 3px;
+	padding-top: 3px;
 }
-.phonepe{
-    padding-left: 4px;
-    padding-top: 4px;
+
+.phonepe {
+	padding-left: 4px;
+	padding-top: 4px;
 }
-.availOff{
+
+.availOff {
 	padding-top: 16px;
-    padding-bottom: 12px;
-    padding-right: 83px;
+	padding-bottom: 12px;
+	padding-right: 83px;
 }
-.prodImgDesc{
+
+.prodImgDesc {
 	gap: 36px;
-    width: 637px;
+	width: 637px;
 }
-.recStarIcon{
+
+.recStarIcon {
 	padding-left: 15px;
-    padding-bottom: 22px;
-    padding-top: 17px;
-    gap: 15px;
+	padding-bottom: 22px;
+	padding-top: 17px;
+	gap: 15px;
 }
-.recPayText{
-	padding-top:20px;
+
+.recPayText {
+	padding-top: 20px;
 }
-.contentList{
+
+.contentList {
 	margin-top: 45px;
 }
-.cashDelIcon, .gpayIcon, .phonepeIcon{
+
+.cashDelIcon,
+.gpayIcon,
+.phonepeIcon {
 	border-bottom: 1px dashed #eaeaec;
 	padding-bottom: 15px;
 }
-.gpayIcon, .phonepeIcon{
+
+.gpayIcon,
+.phonepeIcon {
 	padding-top: 15px;
 }
-.applyGift{
+
+.applyGift {
 	color: #ff3f6c;
 	font-weight: 700;
-    font-size: 12px;
+	font-size: 12px;
 }
-.choosePayMode{
+
+.choosePayMode {
 	margin-bottom: 14px;
 }

@@ -52,9 +52,12 @@
 }
 
 .sidebarTitles {
+	position: relative;
+	left: 24px;
 	display: flex;
-	gap: 100px;
-	margin-top: 20px;
+	margin-top: 40px;
+	align-items: center;
+	padding-bottom: 15px;
 }
 
 .filter,
@@ -64,12 +67,14 @@
 
 .filter {
 	color: #000000;
-	font-size: 16px;
+	font-size: 14px;
 }
 
 .clear {
 	color: #FF3F63;
-	font-size: 13px;
+	font-size: 12px;
+	position: relative;
+	left: 111px;
 }
 
 .sidebarRowA {
@@ -82,6 +87,10 @@
 .specColor {
 	accent-color: #FF3C67;
 	margin: 0px 8px 0px;
+}
+
+.sidebarSection {
+	width: 257px;
 }
 
 .sidebarRowB,
@@ -101,9 +110,11 @@
 }
 
 .menRowStyle {
-	font-size: 14px;
+	font-size: 13px;
 	color: #282C3F;
-	font-weight: 700;
+	font-weight: 600;
+	position: relative;
+	left: 9px;
 }
 
 .commonRowStyle {
@@ -151,20 +162,20 @@ input {
 }
 
 .categoryImgSection {
-	margin-top: 17px;
+	margin-top: 36px;
 	margin-left: 35px;
 }
 
 .catHeaderRight {
 	position: relative;
-	left: 488px;
+	left: 423px;
 }
 
 .catHeaderRightA {
 	border: 1px solid #dedee5;
 	box-sizing: border-box;
 	padding: 6px;
-	padding-right: 71px;
+	padding-right: 127px;
 }
 
 .watchImgRow {
@@ -214,4 +225,185 @@ input {
 
 .prodLeft {
 	color: #FF5722;
+}
+
+.catHeaderLeftA p {
+	font-size: 14px;
+	color: #282c3f;
+}
+
+.catHeaderLeft {
+	gap: 16px;
+}
+
+.headTextStyle {
+	margin-top: 4px;
+}
+
+.downArrowIcon {
+	margin-top: 3px;
+	color: #d3d3d9;
+	font-size: large;
+}
+
+.dwnIcon {
+	margin-top: 6px;
+	color: #d3d3d9;
+	font-size: large;
+}
+
+.catHeaderRightA p {
+	color: #282c3f;
+	font-size: 14px;
+}
+
+.catHeaderRightA span {
+	font-weight: 700;
+	color: #282c3f;
+}
+
+.categoryHint {
+	position: relative;
+	left: 24px;
+	top: 7px;
+}
+
+.categoryTitle {
+	position: relative;
+	left: 24px;
+	top: 10px;
+}
+
+.radioInput {
+
+	width: 10px;
+	height: 10px;
+	border: 1px solid #c3c2c9;
+	border-radius: 50%;
+
+	display: inline-block;
+
+	padding: 2px;
+	text-align: center;
+}
+
+.alignRadioBtn {
+	display: flex;
+	align-items: center;
+}
+
+.radioPos {
+	position: relative;
+	top: 10px;
+}
+
+.sidebarRowA,
+.sidebarRowB,
+.sidebarRowC,
+.sidebarRowD,
+.sidebarRowE,
+.sidebarRowF {
+	padding-top: 20px;
+	padding-bottom: 28px;
+	padding-left: 17px;
+}
+
+.checkboxInput {
+	box-sizing: border-box;
+	width: 16px;
+	height: 16px;
+	border: 1px solid #c3c2c9;
+	background: #fff;
+	border-radius: 2px;
+}
+
+.menRowHt {
+	line-height: 26px;
+}
+
+.catgryHead {
+	display: flex;
+	align-items: center;
+	margin-bottom: 13px;
+}
+
+.categorySrchIcon {
+	border: 1px solid #f5f5f6;
+	background: #f5f5f6;
+	width: 28px;
+	height: 28px;
+	border-radius: 20px;
+	position: relative;
+	left: 124px;
+}
+
+.catSrchIcon {
+	font-size: large;
+	color: #9494a1;
+	position: relative;
+	top: 6px;
+	left: 5px;
+}
+
+.brandSrchIcon {
+	border: 1px solid #f5f5f6;
+	background: #f5f5f6;
+	width: 28px;
+	height: 28px;
+	border-radius: 20px;
+	position: relative;
+	left: 151px;
+}
+
+.colorSrchIcon {
+	border: 1px solid #f5f5f6;
+	background: #f5f5f6;
+	width: 28px;
+	height: 28px;
+	border-radius: 20px;
+	position: relative;
+	left: 151px;
+}
+
+.colrAlign {
+	align-items: center;
+}
+
+.colrMargin {
+	position: relative;
+	left: 7px;
+}
+
+.categoryCount {
+	color: #94969f;
+	font-size: 11px;
+	margin-left: 4px;
+}
+
+.watches {
+	color: #3e4152;
+	font-size: 12px;
+	padding: 5px 26px 5px 10px;
+	border-radius: 20px;
+	border: 1px solid #d4d5d9;
+	width: 44px;
+	margin-top: 4px;
+}
+
+.topWatchIcon {
+	position: relative;
+	top: 1px;
+	font-size: medium;
+	color: #babacb;
+	left: 4px;
+}
+
+.topBarStyle {
+	box-shadow: 0 8px 8px -4px rgba(40, 44, 63, .04);
+	padding-bottom: 21px;
+}
+
+.watchImgContent {
+	position: relative;
+	top: 22px;
 }

@@ -1,0 +1,39 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.footerImg {
+	width: 70px;
+}
+
+.footerImgg {
+	width: 60px;
+}
+
+.imgHt {
+	height: 38px;
+}
+
+.footerRight {
+	font-size: 13px;
+	color: #282c3f;
+	font-weight: 600;
+}
+
+.footerLeft {
+	position: relative;
+	left: 159px;
+}
+
+footer {
+	display: flex;
+	align-items: center;
+	border-top: 1px solid #eaeaec;
+	padding-top: 11px;
+}
+
+.footerRight {
+	position: relative;
+	left: 365px;
+}
