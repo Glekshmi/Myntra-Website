@@ -8,7 +8,7 @@
 	height: 77px;
 	width: 100%;
 	position: fixed;
-	z-index:1;
+	z-index: 1;
 	background-color: white;
 	align-items: center;
 	justify-content: space-between;
@@ -24,8 +24,7 @@
 .navSection,
 .headerRight,
 .headerMid,
-.cartDesc
- {
+.cartDesc {
 	display: flex;
 }
 
@@ -68,8 +67,7 @@
 }
 
 .address,
-.payment
- {
+.payment {
 	color: #696B79;
 }
 
@@ -80,39 +78,51 @@
 	font-size: 11px;
 	color: #535766;
 }
-.addressDesc{
+
+.addressDesc {
 	position: relative;
-    top: 120px;
+	top: 120px;
 }
-.addrData{
-	border:1px solid #eaeaec;
-	border-radius:5px;
+
+.addrData {
+	border: 1px solid #eaeaec;
+	border-radius: 5px;
 }
 
 
-.MrpDetails, .knowMoree, .priceRow{ 
-	font-size:14px;
+.MrpDetails,
+.knowMoree,
+.priceRow {
+	font-size: 14px;
 }
-.MrpDetails { 
-	color:#282C3F;
+
+.MrpDetails {
+	color: #282C3F;
 }
+
 .itemPriceDet {
-	font-weight:700;
+	font-weight: 700;
 }
-.itemPriceDet{
+
+.itemPriceDet {
 	color: #535766;
 }
-.itemPriceDet, .freeShipping{
-	font-size:12px;	
-}
-.knowMoree{
-	color:#FF3F6C;
-}
-.priceRow{
-	color:#03A685;
+
+.itemPriceDet,
+.freeShipping {
+	font-size: 12px;
 }
 
-.totAmt, .amtValue{
-	color:#3E4152;
-	font-size:15px;
+.knowMoree {
+	color: #FF3F6C;
+}
+
+.priceRow {
+	color: #03A685;
+}
+
+.totAmt,
+.amtValue {
+	color: #3E4152;
+	font-size: 15px;
 }

@@ -1,93 +1,113 @@
-*{
-	padding:0;
-	margin:0;
-	font-familt:Assistant;
+* {
+	padding: 0;
+	margin: 0;
+	font-familt: Assistant;
 }
-body{
-	background-color: #FDEDF2;	
+
+body {
+	background-color: #FDEDF2;
 }
-.loginSection{
+
+.loginSection {
 	display: flex;
-    	flex-direction: column;
-    	justify-content: center;
-    	align-items: center;
-    	position: relative;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
 }
-.loginImg{
+
+.loginImg {
 	display: flex;
-    	align-items: center;
-    	justify-content: center;
+	align-items: center;
+	justify-content: center;
 }
-.loginImg img{
-    	width: 65%;
-	margin-top:100px;
+
+.loginImg img {
+	width: 65%;
+	margin-top: 100px;
 }
-.inputField{
+
+.inputField {
 	display: flex;
-    	align-items: center;
-	line-height:34px;
+	align-items: center;
+	line-height: 34px;
 	border: 1px solid #eaeaec;
 }
-.loginTitle{
-	margin-bottom:20px;
+
+.loginTitle {
+	margin-bottom: 20px;
 }
-.loginTitle p{
-	color:#424553;
-	font-size:20px;
-	font-weight:700;
+
+.loginTitle p {
+	color: #424553;
+	font-size: 20px;
+	font-weight: 700;
 }
-.loginTitle span{
-	color:#535766;
-	font-size:16px;
-	font-weight:400;
-	margin:0px 5px 0px;
+
+.loginTitle span {
+	color: #535766;
+	font-size: 16px;
+	font-weight: 400;
+	margin: 0px 5px 0px;
 }
-.loginTerms{
-	margin:10px 0px 10px;
+
+.loginTerms {
+	margin: 10px 0px 10px;
 }
-.loginTerms,.loginHelp {
-	font-size:12px;
+
+.loginTerms,
+.loginHelp {
+	font-size: 12px;
 }
-.loginTerms p{
-	color:#282C3FCC;
+
+.loginTerms p {
+	color: #282C3FCC;
 }
-.termColr{
-	color:#FF3C6F;
-	font-weight:700;
+
+.termColr {
+	color: #FF3C6F;
+	font-weight: 700;
 }
-.loginBtn button{
-	background-color:#FF3C6F;
-	color:#FFFFFF;
-	font-size:13px;
-	border:none;
+
+.loginBtn button {
+	background-color: #FF3C6F;
+	color: #FFFFFF;
+	font-size: 13px;
+	border: none;
 	width: -webkit-fill-available;
-	line-height:40px;
+	line-height: 40px;
 }
-.loginHelp p{
-	color:#282C3FCC;
+
+.loginHelp p {
+	color: #282C3FCC;
 }
-.loginBox{
-	line-height:40px;
-	width:29%;
+
+.loginBox {
+	line-height: 40px;
+	width: 29%;
 	box-sizing: border-box;
-    	padding: 22px; 
-	background:white;
+	padding: 22px;
+	background: white;
 }
-.inputBox{
+
+.inputBox {
 	width: 266px;
-    	border: none;
-    	outline: none;
+	border: none;
+	outline: none;
 }
-.inputField span{
-	padding:12px;
+
+.inputField span {
+	padding: 12px;
 	font-size: medium;
 }
-.phnCode{
-	font-size:12px;
-	color:#282C3FCC;
+
+.phnCode {
+	font-size: 12px;
+	color: #282C3FCC;
 }
-.loginHelp{
+
+.loginHelp {
 	position: relative;
-    	top: 30px;
+	top: 30px;
 	margin-bottom: 40px;
 }
