@@ -199,7 +199,7 @@ proRate {
 .productMrp {
 	display: flex;
 	align-items: baseline;
-	gap: 17px;
+	gap: 12px;
 }
 
 .itemPrevPrice,
@@ -477,12 +477,12 @@ p {
 }
 
 .contentLeft {
-	width: min-content;
+	//width: min-content;
 }
 
 .contentRight {
 	position: relative;
-	left: 204px;
+	//left: 204px;
 }
 
 .contentB,
@@ -585,4 +585,7 @@ ul {
 
 .productBtn {
 	gap: 14px;
+}
+.mx-auto{
+	width: -webkit-fill-available;
 }

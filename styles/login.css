@@ -111,3 +111,11 @@ body {
 	top: 30px;
 	margin-bottom: 40px;
 }
+.submitBtn{
+	background: #FF3C6F;
+    border: none;
+    width: -webkit-fill-available;
+    line-height: 36px;
+    color: #ffffff;
+    font-weight: 700;
+}

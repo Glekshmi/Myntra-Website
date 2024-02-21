@@ -70,15 +70,17 @@
             <div class="inputField">
                <div class="phnCode">+91<span>|</span></div>
                <form>
-                  <input class="inputBox" type="text" placeholder="Mobile Number" maxlength="10" required>
+                  <input class="inputBox" type="text" id="phNo" placeholder="Mobile Number" maxlength="10" required>
                </form>
             </div>
             <div class="loginTerms">
                <p>By continuing, I agree to the <span class="termColr">Terms of Use</span> & <span class="termColr">Privacy Policy</span></p>
             </div>
             <div class="loginBtn">
-               <button class="termColr">CONTINUE</button>
-            </div>
+		<form method="post" onsubmit="return validates()">
+		<input type="submit" value="CONTINUE" class="submitBtn" id="submitBtn">
+            	</form>
+	     </div>
             <div class="loginHelp">
                <p>Having trouble logging in? <span class="termColr">Get help</span>
             </div>

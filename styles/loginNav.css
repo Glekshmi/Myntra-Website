@@ -130,6 +130,7 @@ a {
 	width: 317px;
 	border: none;
 	outline: none;
+	
 }
 
 .search-container {
@@ -143,8 +144,10 @@ a {
 .search-input {
 	width: 163%;
 	padding: 9px;
-	border: 1px solid #696e791f;
+	border: 1px solid #eaeaec73;
 	outline: none;
+	background-color: #eaeaec73;
+	border:none;
 }
 
 .search-icon {
@@ -163,14 +166,16 @@ a {
 }
 
 .lensStyle {
-	border: 1px solid #f1f1f1;
-	background-color: #f5f5f6;
+	border: 1px solid #eaeaec73;
+	background-color: #eaeaec73;
 	width: 36px;
+	border:none;
 }
 
 .settings {
 	gap: 25px;
-	margin-left: 50px;
+    position: relative;
+    left: 222px;
 }
 
 .settingsText {
